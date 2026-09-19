@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Mockup do guia digital de marmitas">
+  <defs>
+    <linearGradient id="bookBg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#234936"/>
+      <stop offset="100%" stop-color="#142f26"/>
+    </linearGradient>
+    <linearGradient id="paper" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#fffdf9"/>
+      <stop offset="100%" stop-color="#f8f1e8"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="#f3ebdd"/>
+  <g transform="translate(160 120)">
+    <rect x="0" y="0" width="480" height="760" rx="34" fill="url(#bookBg)" transform="rotate(-8 240 380)"/>
+    <rect x="40" y="40" width="400" height="680" rx="26" fill="url(#paper)" transform="rotate(-8 240 380)" opacity="0.96"/>
+    <g transform="rotate(-8 240 380)">
+      <text x="90" y="180" font-size="28" font-family="Arial, sans-serif" fill="#3d7a5a" letter-spacing="5">GUIA DE MARMITAS</text>
+      <text x="90" y="280" font-size="68" font-family="Georgia, serif" fill="#234936" font-weight="700">SEMANA</text>
+      <text x="90" y="350" font-size="68" font-family="Georgia, serif" fill="#234936" font-weight="700">ORGANIZADA</text>
+      <line x1="90" y1="390" x2="360" y2="390" stroke="#d99a4e" stroke-width="6"/>
+      <g fill="#234936" font-family="Arial, sans-serif" font-size="28">
+        <text x="90" y="470">30 combinações</text>
+        <text x="90" y="520">20 receitas</text>
+        <text x="90" y="570">Planner semanal</text>
+      </g>
+    </g>
+  </g>
+</svg>

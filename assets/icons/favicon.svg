@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Favicon Guia de Marmitas">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#3d7a5a"/>
+      <stop offset="100%" stop-color="#234936"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#g)"/>
+  <path d="M18 42.5V21.5c0-1.1.9-2 2-2h24c1.1 0 2 .9 2 2v21c0 1.1-.9 2-2 2H20c-1.1 0-2-.9-2-2Zm8-11.5h12M18 28h28" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+  <path d="M24 18c0-3.3 2.7-6 6-6h4c3.3 0 6 2.7 6 6" stroke="#d99a4e" stroke-width="3" stroke-linecap="round" fill="none"/>
+</svg>
