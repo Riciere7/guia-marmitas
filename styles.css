@@ -1020,7 +1020,8 @@ button {
   .steps-grid,
   .economy__grid,
   .faq__wrap,
-  .footer__grid {
+  .footer__grid,
+  .showcase-grid {
     grid-template-columns: 1fr;
   }
 
@@ -1030,6 +1031,31 @@ button {
 
   .economy__compare {
     grid-template-columns: 1fr;
+  }
+
+  .visual-showcase {
+    width: 100%;
+    min-height: 320px;
+  }
+
+  .showcase-card--book {
+    left: 0;
+    width: min(74vw, 320px);
+    height: 260px;
+    transform: rotate(-4deg);
+  }
+
+  .showcase-card--phone {
+    right: 0;
+    width: min(46vw, 190px);
+    height: 220px;
+    transform: rotate(3deg);
+  }
+
+  .showcase-photo--large,
+  .showcase-photo--small {
+    min-height: 260px;
+    height: 260px;
   }
 
   .hero__actions {
